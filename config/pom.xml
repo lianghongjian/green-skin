@@ -23,8 +23,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>platform-ui</artifactId>
-        <groupId>org.exoplatform.platform-ui</groupId>
-        <version>4.2.x-SNAPSHOT</version>
+        <groupId>org.exoplatform.addons.green-skin</groupId>
+        <version>1.0.x-SNAPSHOT</version>
     </parent>
 
     <artifactId>skin-addon-config</artifactId>

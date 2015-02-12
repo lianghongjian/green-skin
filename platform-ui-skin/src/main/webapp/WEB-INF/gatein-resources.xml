@@ -24,14 +24,14 @@
                   xmlns="http://www.gatein.org/xml/ns/gatein_resources_1_3">
 
   <!--portal-skin>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <skin-module>bootstrap</skin-module>
     <css-path>/skin/bootstrap/css/bootstrap.css</css-path>
     <css-priority>0</css-priority>
   </portal-skin -->
   
   <portal-skin>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/Core.css</css-path>
     <css-priority>1</css-priority>
   </portal-skin>
@@ -46,7 +46,7 @@
   <portlet-skin>
     <application-name>exoadmin</application-name>
     <portlet-name>AccountPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/Portlets/UIAccountPortlet/Style.css</css-path>
     <overwrite>true</overwrite>
   </portlet-skin>
@@ -55,7 +55,7 @@
   <portlet-skin>
     <application-name>exoadmin</application-name>
     <portlet-name>OrganizationPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/Portlets/UIOrganizationPortlet/Style.css</css-path>
     <overwrite>true</overwrite>
   </portlet-skin>
@@ -64,7 +64,7 @@
   <portlet-skin>
     <application-name>dashboard</application-name>
     <portlet-name>TabbedDashboardPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/Portlets/UITabbedDashboardPortlet/Style.css</css-path>
     <overwrite>true</overwrite>
   </portlet-skin>
@@ -73,7 +73,7 @@
   <portlet-skin>
     <application-name>exoadmin</application-name>
     <portlet-name>PortalNavigationPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/Portlets/SiteNavigationPortlet/Style.css</css-path>
     <overwrite>true</overwrite>
   </portlet-skin>
@@ -82,7 +82,7 @@
   <portlet-skin>
     <application-name>exoadmin</application-name>
     <portlet-name>GroupNavigationPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/Portlets/SiteNavigationPortlet/Style.css</css-path>
     <overwrite>true</overwrite>
   </portlet-skin>
@@ -91,14 +91,14 @@
   <portlet-skin>
     <application-name>exoadmin</application-name>
     <portlet-name>ApplicationRegistryPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/Portlets/UIApplicationRegistryPortlet/Style.css</css-path>
     <overwrite>true</overwrite>
   </portlet-skin>
  
  <!--- Wiki portlet -->
    <portal-skin>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <skin-module>wiki</skin-module>
     <css-path>/skin/css/wiki/wiki.css</css-path>
   </portal-skin>
@@ -106,14 +106,14 @@
   <portlet-skin>
     <application-name>wiki</application-name>
     <portlet-name>WikiPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/wiki/wiki.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
   
  <!--- forum portlet --> 
    <portal-skin>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <skin-module>forumResources</skin-module>
     <css-path>/skin/css/forum/skin/forum-resources.css</css-path>
   </portal-skin>
@@ -121,7 +121,7 @@
 	<portlet-skin>
 		<application-name>poll</application-name>
 		<portlet-name>PollPortlet</portlet-name>
-		<skin-name>Default</skin-name>
+		<skin-name>GreenSkin</skin-name>
 		<css-path>/skin/css/forum/portlets/poll/pollPortlet.css</css-path>
 		<css-priority>1</css-priority>
 	</portlet-skin>
@@ -129,7 +129,7 @@
   <portlet-skin>
     <application-name>forum</application-name>
     <portlet-name>ForumPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/forum/portlets/forum/forum.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -138,7 +138,7 @@
   <!-- commons -->
   
   <portal-skin>
-		<skin-name>Default</skin-name>
+		<skin-name>GreenSkin</skin-name>
 		<skin-module>DocumentSelector</skin-module>
 		<css-path>/skin/css/commons/skin/commons.css</css-path>
 	</portal-skin>
@@ -146,7 +146,7 @@
 	<!-- integration -->
 	 
 	<portal-skin>
-		<skin-name>Default</skin-name>
+		<skin-name>GreenSkin</skin-name>
 		<skin-module>unified-search</skin-module>
 		<css-path>/skin/css/integration/skin/quicksearchpage.css</css-path>	
 		<css-priority>1</css-priority>
@@ -155,7 +155,7 @@
   <portlet-skin>
     <application-name>unified-search</application-name>
     <portlet-name>UnifiedsearchPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/integration/skin/searchpage.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -164,7 +164,7 @@
   <portlet-skin>
     <application-name>unified-search</application-name>
     <portlet-name>SearchAdministrationPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/integration/skin/searchAdmin.css</css-path>    
     <css-priority>1</css-priority>
   </portlet-skin>    
@@ -174,7 +174,7 @@
   <portlet-skin>
     <application-name>calendar</application-name>
     <portlet-name>CalendarPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/calendar/calendar.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -182,7 +182,7 @@
   <!--- social -->
   
   <portal-skin>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <skin-module>Social</skin-module>
     <css-path>/skin/css/social/skin/social.css</css-path>
   </portal-skin>
@@ -192,7 +192,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SocialBannerPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiBannerPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -200,7 +200,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>WarningPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiWarningPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -208,7 +208,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SocialExtensionLogoPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiSocialExtensionLogoPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -216,7 +216,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SocialExtensionHomePagePortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiSocialExtensionHomePagePortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -224,14 +224,14 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SocialDemoHomePagePortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiSocialDemoHomePagePortlet/Style.css</css-path>
   </portlet-skin>
 
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SocialNavigationPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiSocialNavigationPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -240,7 +240,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>MembersPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiMembersPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -248,7 +248,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SpaceMenuPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiSpaceMenuPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -256,7 +256,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SpaceSettingPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiSpaceSettingPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -264,7 +264,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>MySpacesPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiMySpacesPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -272,7 +272,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>InvitationSpacesPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiInvitationSpacesPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -280,7 +280,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>PendingSpacesPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiPendingSpacesPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -288,7 +288,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>AllSpacesPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiAllSpacesPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -296,7 +296,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SpacesToolbarPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiSpaceToolbarPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -304,7 +304,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SocialFooterPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiFooterPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -312,7 +312,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SpaceActivityStreamPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiSpaceActivityStreamPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -320,7 +320,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>UserActivityStreamPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiUserActivityStreamPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -328,7 +328,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>PeoplePortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiPeoplePortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -336,7 +336,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>ProfilePortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiProfilePortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -344,7 +344,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>MyConnectionsNavigationPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiMyConnectionsNavigationPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -352,7 +352,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>ConnectionsNavigationPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiConnectionsNavigationPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -360,7 +360,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>ConnectionsPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiConnectionsPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -368,7 +368,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>AllPeoplePortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiAllPeoplePortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -376,7 +376,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>RequestsPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiRequestsPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -384,7 +384,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>InvitationsPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiInvitationsPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -392,7 +392,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>ProfileNavigationPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiProfileNavigationPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -400,7 +400,7 @@
   <portlet-skin>
     <application-name>social-portlet</application-name>
     <portlet-name>SpaceAccessPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/portlets/uiSpaceAccessPortlet/Style.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -416,7 +416,7 @@
   <portlet-skin>
     <application-name>social-juzu</application-name>
     <portlet-name>NotificationSettingsPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/social/juzu-portlet/notification.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -479,7 +479,7 @@
   
   <!--- platform -->
   <portal-skin>
-		<skin-name>Default</skin-name>
+		<skin-name>GreenSkin</skin-name>
 		<skin-module>Platform-css</skin-module>
 		<css-path>/skin/css/platform/skin/platform.css</css-path>
 		<overwrite>true</overwrite>
@@ -489,43 +489,43 @@
 	<portlet-skin>
 	    <application-name>platformNavigation</application-name>
 	    <portlet-name>UICompanyNavigationPortlet</portlet-name>
-	    <skin-name>Default</skin-name>
+	    <skin-name>GreenSkin</skin-name>
 	    <css-path>/skin/css/platform/portlets/platformNavigation/UICompanyNavigationPortlet/Style.css</css-path>
 	</portlet-skin>
 	<portlet-skin>
 	    <application-name>platformNavigation</application-name>
 	    <portlet-name>UIBreadCrumbsNavigationPortlet</portlet-name>
-	    <skin-name>Default</skin-name>
+	    <skin-name>GreenSkin</skin-name>
 	    <css-path>/skin/css/platform/portlets/platformNavigation/UIBreadCrumbsNavigationPortlet/Style.css</css-path>
 	</portlet-skin>
 	<portlet-skin>
 	    <application-name>platformNavigation</application-name>
 	    <portlet-name>UIGroupsNavigationPortlet</portlet-name>
-	    <skin-name>Default</skin-name>
+	    <skin-name>GreenSkin</skin-name>
 	    <css-path>/skin/css/platform/portlets/platformNavigation/UIGroupsNavigationPortlet/Style.css</css-path>
 	</portlet-skin>
 	<portlet-skin>
 	    <application-name>platformNavigation</application-name>
 	    <portlet-name>UIHelpPlatformToolbarPortlet</portlet-name>
-	    <skin-name>Default</skin-name>
+	    <skin-name>GreenSkin</skin-name>
 	    <css-path>/skin/css/platform/portlets/platformNavigation/UIHelpPlatformToolbarPortlet/Style.css</css-path>
 	</portlet-skin>
 	<portlet-skin>
 	    <application-name>platformNavigation</application-name>
 	    <portlet-name>UISearchPlatformToolbarPortlet</portlet-name>
-	    <skin-name>Default</skin-name>
+	    <skin-name>GreenSkin</skin-name>
 	    <css-path>/skin/css/platform/portlets/platformNavigation/UISearchPlatformToolbarPortlet/Style.css</css-path>
 	</portlet-skin>
 	<portlet-skin>
 	    <application-name>platformNavigation</application-name>
 	    <portlet-name>UISpaceNavigationPortlet</portlet-name>
-	    <skin-name>Default</skin-name>
+	    <skin-name>GreenSkin</skin-name>
 	    <css-path>/skin/css/platform/portlets/platformNavigation/UISpaceNavigationPortlet/Style.css</css-path>
 	</portlet-skin>
 	<portlet-skin>
 	    <application-name>platformNavigation</application-name>
 	    <portlet-name>UIUserNavigationPortlet</portlet-name>
-	    <skin-name>Default</skin-name>
+	    <skin-name>GreenSkin</skin-name>
 	    <css-path>/skin/css/platform/portlets/platformNavigation/UIUserNavigationPortlet/Style.css</css-path>
 	</portlet-skin>
 
@@ -533,35 +533,35 @@
 	<portlet-skin>
     <application-name>homepage-portlets</application-name>
     <portlet-name>WhoIsOnLinPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/platform/portlets/homepage/whoisonline.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
   <portlet-skin>
     <application-name>homepage-portlets</application-name>
     <portlet-name>GettingStartedPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/platform/portlets/homepage/gettingstarted.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
   <portlet-skin>
     <application-name>homepage-portlets</application-name>
     <portlet-name>SuggestionsPeopleSpace</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/platform/portlets/homepage/suggestions.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
   <portlet-skin>
     <application-name>homepage-portlets</application-name>
     <portlet-name>Invitations</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/platform/portlets/homepage/invitations.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>  
   <portlet-skin>
     <application-name>homepage-portlets</application-name>
     <portlet-name>HomePageCalendarPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/platform/portlets/homepage/calendar.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
@@ -570,21 +570,21 @@
 	<portlet-skin>
 		<application-name>platform-branding</application-name>
 		<portlet-name>Branding</portlet-name>
-		<skin-name>Default</skin-name>
+		<skin-name>GreenSkin</skin-name>
 		<css-path>/skin/css/platform/portlets/branding/branding.css</css-path>
 		<css-priority>1</css-priority>
 	</portlet-skin>
   <portlet-skin>
     <application-name>platform-notification</application-name>
     <portlet-name>NotificationsAdminJuzuPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/platform/portlets/notification/notificationsAdmin.css</css-path>
     <css-priority>1</css-priority>
   </portlet-skin>
    
   <!-- ecms:  WCMSkin -->
   <portal-skin>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <skin-module>WCMSkin</skin-module>
     <css-path>/skin/css/ecms/skin/ecms-resources-wcmskin.css</css-path>
     <css-priority>1</css-priority>
@@ -595,7 +595,7 @@
   <portlet-skin>
     <application-name>ecmadmin</application-name>
     <portlet-name>ECMAdminPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/ecms/portlets/administration/ecms-administration.css</css-path>
   </portlet-skin>
   
@@ -604,7 +604,7 @@
   <portlet-skin>
     <application-name>ecmexplorer</application-name>
     <portlet-name>FileExplorerPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/ecms/portlets/explorer/ecms-explorer.css</css-path>
   </portlet-skin>
    <!-- SingleContentViewer skins -->
@@ -613,7 +613,7 @@
   <portlet-skin>
     <application-name>searches</application-name>
     <portlet-name>WCMAdvanceSearchPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/ecms/portlets/search/ecms-search.css</css-path>
   </portlet-skin>
   <!-- FastContentCreatorPortlet skins -->
@@ -621,7 +621,7 @@
   <portlet-skin>
     <application-name>fastcontentcreator</application-name>
     <portlet-name>FastContentCreatorPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/ecms/portlets/fastcontentcreator/fast-content-creator.css</css-path>
   </portlet-skin>
     
@@ -630,17 +630,26 @@
   <portlet-skin>
     <application-name>fastcontentcreator</application-name>
     <portlet-name>FastContentCreatorBasicPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/ecms/portlets/fastcontentcreator/fast-content-creator.css</css-path>
   </portlet-skin>
 
   <!-- FastContentCreatorPortletStandard skins -->
 
+
+
+  <portlet-skin>
+    <application-name>fastcontentcreator</application-name>
+    <portlet-name>FastContentCreatorBasicPortletStandard</portlet-name>
+    <skin-name>GreenSkin</skin-name>
+    <css-path>/skin/css/ecms/portlets/fastcontentcreator/fast-content-creator.css</css-path>
+  </portlet-skin>
+  
   
   <portlet-skin>
     <application-name>presentation</application-name>
     <portlet-name>SingleContentViewer</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/ecms/portlets/presentation/ecms-presentation-singlecontentviewer.css</css-path>
   </portlet-skin>
   
@@ -656,14 +665,14 @@
   <portlet-skin>
     <application-name>presentation</application-name>
     <portlet-name>ContentListViewerPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/ecms/portlets/presentation/ecms-presentation-contentlistviewerportlet.css</css-path>
   </portlet-skin>
   
   <portlet-skin>
     <application-name>presentation</application-name>
     <portlet-name>ContentListViewerByQueryPortlet</portlet-name>
-    <skin-name>Default</skin-name>
+    <skin-name>GreenSkin</skin-name>
     <css-path>/skin/css/ecms/portlets/presentation/ecms-presentation-contentlistviewerportlet.css</css-path>
   </portlet-skin>
 

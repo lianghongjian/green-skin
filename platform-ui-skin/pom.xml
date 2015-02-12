@@ -23,8 +23,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>platform-ui</artifactId>
-        <groupId>org.exoplatform.platform-ui</groupId>
-        <version>4.2.x-SNAPSHOT</version>
+        <groupId>org.exoplatform.addons.green-skin</groupId>
+        <version>1.0.x-SNAPSHOT</version>
     </parent>
 
     <artifactId>platform-ui-skin</artifactId>
@@ -123,7 +123,7 @@
                                 <include>ecms/portlets/explorer/ecms-explorer.less</include>
 								                <include>ecms/portlets/search/ecms-search.less</include>
 								                <include>ecms/portlets/fastcontentcreator/fast-content-creator.less</include>
-                                <include>ecms/portlets/presentation/ecms-presentation-categorynavigationportlet.less</include>
+                               <include>ecms/portlets/presentation/ecms-presentation-categorynavigationportlet.less</include>
                                 <include>ecms/portlets/presentation/ecms-presentation-contentlistviewerportlet.less</include>
                                 <include>ecms/portlets/presentation/ecms-presentation-singlecontentviewer.less</include>
                                 <include>calendar/calendar.less</include>
@@ -182,7 +182,7 @@
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
-                  <packagingExcludes>skin/images/PSD/,skin/images/themes/blue/,skin/images/themes/green/,skin/images/themes/orange/,skin/images/themes/pink/,skin/images/themes/red/</packagingExcludes>
+                  <packagingExcludes>skin/images/PSD/,skin/images/themes/blue/,skin/images/themes/default/,skin/images/themes/orange/,skin/images/themes/pink/,skin/images/themes/red/</packagingExcludes>
                 </configuration>
             </plugin>
         </plugins>
