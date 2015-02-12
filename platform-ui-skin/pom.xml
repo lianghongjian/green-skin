@@ -23,8 +23,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>platform-ui</artifactId>
-        <groupId>org.exoplatform.platform-ui</groupId>
-        <version>4.3.x-SNAPSHOT</version>
+        <groupId>org.exoplatform.addons.green-skin</groupId>
+        <version>1.1.x-SNAPSHOT</version>
     </parent>
 
     <artifactId>platform-ui-skin</artifactId>
@@ -64,6 +64,7 @@
                             <compress>false</compress>
                             <includes>
                                 <include>Core.less</include>
+                                <include>sub-core.less</include>
                                 <include>Portlets/UIOrganizationPortlet/Style.less</include>
                                 <include>Portlets/UITabbedDashboardPortlet/Style.less</include>
                                 <include>Portlets/SiteNavigationPortlet/Style.less</include>
@@ -123,7 +124,7 @@
                                 <include>ecms/portlets/explorer/ecms-explorer.less</include>
 								                <include>ecms/portlets/search/ecms-search.less</include>
 								                <include>ecms/portlets/fastcontentcreator/fast-content-creator.less</include>
-                                <include>ecms/portlets/presentation/ecms-presentation-categorynavigationportlet.less</include>
+                               <include>ecms/portlets/presentation/ecms-presentation-categorynavigationportlet.less</include>
                                 <include>ecms/portlets/presentation/ecms-presentation-contentlistviewerportlet.less</include>
                                 <include>ecms/portlets/presentation/ecms-presentation-singlecontentviewer.less</include>
                                 <include>calendar/calendar.less</include>
@@ -182,7 +183,7 @@
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
-                  <packagingExcludes>skin/images/PSD/,skin/images/themes/blue/,skin/images/themes/green/,skin/images/themes/orange/,skin/images/themes/pink/,skin/images/themes/red/</packagingExcludes>
+                  <packagingExcludes>skin/images/PSD/</packagingExcludes>
                 </configuration>
             </plugin>
         </plugins>
